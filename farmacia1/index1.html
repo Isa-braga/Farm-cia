@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmácia - Controle de Estoque</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Controle de Estoque da Farmácia</h1>
+    </header>
+
+    <section id="estoque">
+        <h2>Produtos em Estoque</h2>
+        <table id="tabelaEstoque">
+            <tr>
+                <th>Medicamento</th>
+                <th>Quantidade</th>
+                <th>Ação</th>
+            </tr>
+        </table>
+    </section>
+
+    <section id="atendimento">
+        <h2>Atendimento ao Cliente</h2>
+        <form id="formAtendimento">
+            <label for="medicamento">Medicamento:</label>
+            <input type="text" id="medicamento" required>
+            <button type="submit">Dispensar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Farmácia Exemplo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
